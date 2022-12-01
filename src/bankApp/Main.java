@@ -1,9 +1,6 @@
-package tddClass.bankApp;
+package bankApp;
 
-import tddClass.account.InvalidAmountThrowException;
-import tddClass.account.InvalidPinThrowException;
-import tddClass.account.WrongAccountNumberException;
-import tddClass.account.WrongNameFormatException;
+import exceptions.*;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

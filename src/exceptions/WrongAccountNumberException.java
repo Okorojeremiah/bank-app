@@ -1,4 +1,4 @@
-package tddClass.account;
+package exceptions;
 
 public class WrongAccountNumberException extends RuntimeException {
     public WrongAccountNumberException(String s) {

@@ -1,4 +1,4 @@
-package tddClass.bankApp;
+package exceptions;
 
 public class InvalidRecipientAccountNumberException extends RuntimeException{
 

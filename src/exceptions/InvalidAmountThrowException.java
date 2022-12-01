@@ -1,4 +1,4 @@
-package tddClass.account;
+package exceptions;
 
 public class InvalidAmountThrowException extends RuntimeException{
 

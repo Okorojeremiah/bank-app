@@ -1,4 +1,4 @@
-package tddClass.account;
+package exceptions;
 
 public class WrongNameFormatException extends RuntimeException {
     public WrongNameFormatException(String s) {

@@ -1,10 +1,12 @@
-package tddClass.bankApp;
+package bankApp;
 
+import accountApp.Account;
+import exceptions.InvalidRecipientAccountNumberException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import tddClass.account.Account;
-import tddClass.account.InvalidAmountThrowException;
-import tddClass.account.InvalidPinThrowException;
+//import tddClass.account.Account;
+import exceptions.InvalidAmountThrowException;
+import exceptions.InvalidPinThrowException;
 
 import static org.junit.jupiter.api.Assertions.*;
 

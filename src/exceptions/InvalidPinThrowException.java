@@ -1,4 +1,4 @@
-package tddClass.account;
+package exceptions;
 
 public class InvalidPinThrowException extends RuntimeException{
     public InvalidPinThrowException(String s){

@@ -1,9 +1,9 @@
-package tddClass.bankApp;
+package bankApp;
 
-import tddClass.account.Account;
-import tddClass.account.InvalidAmountThrowException;
-import tddClass.account.InvalidPinThrowException;
-import tddClass.account.WrongAccountNumberException;
+import accountApp.Account;
+import exceptions.InvalidRecipientAccountNumberException;
+//import tddClass.account.Account;
+import exceptions.InvalidPinThrowException;
 
 import java.util.Objects;
 
