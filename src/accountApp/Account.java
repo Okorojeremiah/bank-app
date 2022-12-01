@@ -1,4 +1,8 @@
-package tddClass.account;
+package accountApp;
+
+import exceptions.InvalidAmountThrowException;
+import exceptions.InvalidPinThrowException;
+import exceptions.WrongNameFormatException;
 
 import java.math.BigDecimal;
 import java.util.Objects;
